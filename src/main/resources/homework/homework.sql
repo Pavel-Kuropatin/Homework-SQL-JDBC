@@ -1,14 +1,13 @@
 -- #1 Вывести список юзеров старше 18 лет и моложе 25 (вычисление возраста сделать без добавления новой колонки age)
 -- EXPLAIN ANALYZE
-SELECT DATE_PART('year', AGE(birth_date)) AS age
+SELECT *, DATE_PART('year', AGE(birth_date)) AS age
 FROM users
-WHERE DATE_PART('year', AGE(birth_date)) < 25
-  AND DATE_PART('year', AGE(birth_date)) > 18
+WHERE DATE_PART('year', AGE(birth_date)) BETWEEN (18 + 1) AND (25 - 1)
 ORDER BY id;
 
 -- #2 Подсчитать число машин у каждого пользователя. Вывести в формате User full name (username + пробел + user surname) | Число машин у пользователя
 -- EXPLAIN ANALYZE
-SELECT concat(u.name, ' ', u.surname) AS user_full_name, COUNT(c.id) AS count
+SELECT CONCAT(u.name, ' ', u.surname) AS user_full_name, COUNT(c.id) AS count
 FROM users u
          LEFT JOIN cars c ON c.owner = u.id
 GROUP BY u.id
@@ -18,7 +17,7 @@ ORDER BY count DESC;
 --    Вывести популярные для каждого дилера отдельно или популярные среди всех дилеров (всего 3 модели на выводе)?
 --    И в каком формате выводить? Только модель? Или модель/количество?
 -- EXPLAIN ANALYZE
-SELECT concat(c.name, ' ', c.model), count(c.model) as count
+SELECT CONCAT(c.name, ' ', c.model), COUNT(c.model) as count
 FROM dealer d
          INNER JOIN cars c on d.id = c.dealer_id
          INNER JOIN users u on c.owner = u.id
