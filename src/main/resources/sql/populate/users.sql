@@ -1,0 +1,17 @@
+INSERT INTO public.users (id, name, surname, birth_date, login, weight) VALUES (1, 'Pavel', 'Kuropatin', '1989-11-12', 'kuropatin.pv', 70);
+INSERT INTO public.users (id, name, surname, birth_date, login, weight) VALUES (4, 'Fat', 'Guy', '1999-09-01', 'superman', 130);
+INSERT INTO public.users (id, name, surname, birth_date, login, weight) VALUES (5, 'Ivan', 'Smirnov', '1964-02-05', 'iv_sm', 82);
+INSERT INTO public.users (id, name, surname, birth_date, login, weight) VALUES (6, 'Artem', 'Pahomov', '1982-09-30', 'pahomoff', 110);
+INSERT INTO public.users (id, name, surname, birth_date, login, weight) VALUES (7, 'Dusya', 'Piratova', '1942-06-19', 'dushka', 64);
+INSERT INTO public.users (id, name, surname, birth_date, login, weight) VALUES (8, 'Jenya', 'Ismailova', '1993-10-14', 'jenusik', 54);
+INSERT INTO public.users (id, name, surname, birth_date, login, weight) VALUES (3, 'Keanu', 'Reeves', '1984-08-09', 'neo', 75);
+INSERT INTO public.users (id, name, surname, birth_date, login, weight) VALUES (9, 'Vasya', 'Pupkin', '1979-01-01', 'pupkin', 68);
+INSERT INTO public.users (id, name, surname, birth_date, login, weight) VALUES (2, 'Steven', 'Seagull', '1974-02-14', 'actor', 114);
+INSERT INTO public.users (id, name, surname, birth_date, login, weight) VALUES (10, 'Senya', 'Pushkin', '1988-03-20', 'poet', 72);
+INSERT INTO public.users (id, name, surname, birth_date, login, weight) VALUES (11, 'Anton', 'Shpalov', '1995-07-05', 'shpala', 65);
+INSERT INTO public.users (id, name, surname, birth_date, login, weight) VALUES (12, 'Ivan', 'Grozny', '1998-09-23', 'tsarr', 68);
+INSERT INTO public.users (id, name, surname, birth_date, login, weight) VALUES (13, 'Grygory', 'Melnikov', '2001-12-22', 'melnikoff', 76);
+INSERT INTO public.users (id, name, surname, birth_date, login, weight) VALUES (14, 'Artur', 'Sharov', '2002-06-06', 'shara', 78);
+INSERT INTO public.users (id, name, surname, birth_date, login, weight) VALUES (15, 'Gennadiy', 'Svetlyakof', '1997-04-17', 'electrik', 72);
+INSERT INTO public.users (id, name, surname, birth_date, login, weight) VALUES (16, 'Vlad', 'Safronov', '1996-08-19', 'megakilla', 84);
+INSERT INTO public.users (id, name, surname, birth_date, login, weight) VALUES (17, 'Petr', 'Bezrukov', '2002-02-28', 'rukastiy', 73);

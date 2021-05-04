@@ -1,0 +1,15 @@
+INSERT INTO public.address (id, user_id, location_id, type) VALUES (1, 1, 1, 'HOME');
+INSERT INTO public.address (id, user_id, location_id, type) VALUES (2, 2, 2, 'HOME');
+INSERT INTO public.address (id, user_id, location_id, type) VALUES (3, 3, 1, 'HOME');
+INSERT INTO public.address (id, user_id, location_id, type) VALUES (4, 4, 1, 'HOME');
+INSERT INTO public.address (id, user_id, location_id, type) VALUES (5, 5, 3, 'HOME');
+INSERT INTO public.address (id, user_id, location_id, type) VALUES (6, 6, 4, 'HOME');
+INSERT INTO public.address (id, user_id, location_id, type) VALUES (7, 7, 3, 'HOME');
+INSERT INTO public.address (id, user_id, location_id, type) VALUES (8, 8, 5, 'HOME');
+INSERT INTO public.address (id, user_id, location_id, type) VALUES (9, 9, 6, 'HOME');
+INSERT INTO public.address (id, user_id, location_id, type) VALUES (10, 10, 2, 'HOME');
+INSERT INTO public.address (id, user_id, location_id, type) VALUES (11, 11, 2, 'HOME');
+INSERT INTO public.address (id, user_id, location_id, type) VALUES (12, 12, 4, 'HOME');
+INSERT INTO public.address (id, user_id, location_id, type) VALUES (13, 13, 1, 'HOME');
+INSERT INTO public.address (id, user_id, location_id, type) VALUES (14, 14, 6, 'HOME');
+INSERT INTO public.address (id, user_id, location_id, type) VALUES (15, 15, 2, 'HOME');
