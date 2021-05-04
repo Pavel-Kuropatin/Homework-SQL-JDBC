@@ -1,8 +1,16 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Start!</title>
+    <meta charset="UTF-8">
+    <title>Start Page</title>
 </head>
 <body>
-Students Demo application!
+<p>JDBC Homework App!</p>
+<br>
+<a href="/ByeController">To ByeController</a>
+<br>
+<a href="/hello">To hello page</a>
+<br>
+<a href="/bye">To bye page</a>
 </body>
 </html>

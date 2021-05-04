@@ -1,11 +1,14 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Bye Page!</title>
+    <meta charset="UTF-8">
+    <title>Bye Page</title>
 </head>
 <body>
-<div>Students Demo - Bye Page</div>
-
-<div>${userName}</div>
-
+<p>JDBC Homework App - Bye Page</p>
+<br>
+<a href="/hello">To hello page</a>
+<br>
+<p>Bye, ${userName}</p>
 </body>
 </html>

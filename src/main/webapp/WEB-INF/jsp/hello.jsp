@@ -1,8 +1,12 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Hello Page!</title>
+    <meta charset="UTF-8">
+    <title>Hello Page</title>
 </head>
 <body>
-Students Demo - Hello Page
+<p>JDBC Homework App - Hello Page</p>
+<br>
+<a href="/bye">To bye page</a>
 </body>
 </html>
