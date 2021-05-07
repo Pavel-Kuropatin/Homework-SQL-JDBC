@@ -9,6 +9,8 @@
 <br>
 <a href="/ByeController">To ByeController</a>
 <br>
+<a href="/FrontController?command=findAll&page=0&limit=10">To FrontController</a>
+<br>
 <a href="/hello">To hello page</a>
 <br>
 <a href="/bye">To bye page</a>
