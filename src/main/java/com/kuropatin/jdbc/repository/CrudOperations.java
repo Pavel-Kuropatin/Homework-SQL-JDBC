@@ -8,9 +8,9 @@ public interface CrudOperations<K, T> {
 
     T findOne(K id);
 
-    T save(T entity);
+    T create(T entity);
 
-    T update();
+    T update(K id, T entity);
 
     void delete(K id);
 }
