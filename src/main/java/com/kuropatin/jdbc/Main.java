@@ -4,33 +4,52 @@ import com.kuropatin.jdbc.domain.User;
 import com.kuropatin.jdbc.repository.UserRepository;
 import com.kuropatin.jdbc.repository.UserRepositoryImpl;
 
+import java.sql.Date;
+
 public class Main {
 
     public static void main(String[] args) {
-        UserRepository userRepository = new UserRepositoryImpl();
+        UserRepository userRepositoryImpl = new UserRepositoryImpl();
 
-        //Find all users
-//        for (User user : userRepository.findAll()) {
-//            System.out.println(user);
-//        }
+        //findAll
+        System.out.println("All Users:");
+        for (User user : userRepositoryImpl.findAll()) {
+            System.out.println(user);
+        }
 
-        //Find one
-//        try {
-//            System.out.println(userRepository.findOne(100L));
-//        } catch (Exception e) {
-//            System.err.println(e.getMessage());
-//        }
+        //findOne
+        System.out.println("One User:");
+        try {
+            System.out.println(userRepositoryImpl.findOne(100L));
+        } catch (Exception e) {
+            System.err.println(e.getMessage());
+        }
 
-        //save
+        //create
+//        System.out.println("Create User:");
 //        User user = new User();
 //        user.setName("Test");
-//        user.setSurname("Save");
-//        user.setLogin("test_save_2");
-//        user.setWeight(110f);
-//        user.setBirthDate(new Date(12000000L));
-//        System.out.println(userRepository.save(user));
+//        user.setSurname("User");
+//        user.setBirthDate(new Date(1234567890L));
+//        user.setLogin("test_user");
+//        user.setWeight(99.9f);
+//        System.out.println(userRepositoryImpl.create(user));
 
-        //check function call
-        //System.out.println(userRepository.getUserExpensiveCarPrice(100));
+        //update
+        System.out.println("Save User:");
+        User user = new User();
+//        user.setName("Test");
+//        user.setSurname("User");
+//        user.setBirthDate(new Date(1234567890L));
+//        user.setLogin("test_user");
+        user.setWeight(71.0f);
+        System.out.println(userRepositoryImpl.update(1L, user));
+
+        //delete
+        System.out.println("Delete User:");
+        userRepositoryImpl.delete(26L);
+
+        //getUserExpensiveCarPrice
+//        System.out.println(userRepositoryImpl.getUserExpensiveCarPrice(100));
     }
 }
